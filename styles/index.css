@@ -1,0 +1,29 @@
+* {
+    background-color: #F1FAEE;
+    color: #F1FAEE;
+    text-align: center;
+}
+
+.container {
+    height: 100%
+}
+
+.header {
+    background-color: #A8DADC;
+    border-radius: 15px;
+}
+
+.menu {
+    background-color: #457B9D;
+    border-radius: 15px;
+}
+
+.content {
+    background-color: #1D3557;
+    border-radius: 15px;
+}
+
+.footer {
+    background-color: #E63946;
+    border-radius: 15px;
+}

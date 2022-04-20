@@ -1,0 +1,33 @@
+            @import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+            * {
+                font-family: 'Secular One', sans-serif;
+                font-size: 1.5em;
+            }
+            
+            .container {
+                display: grid;
+                grid-template-columns: repeat(6, 1fr);
+                grid-template-rows: repeat(6, 1fr);
+                gap: 2px;
+            }
+            
+            .header {
+                grid-column: 1 / -1;
+                height: 100px;
+                width: 100%;
+            }
+            
+            .menu {
+                grid-column: 1 / 2;
+                grid-row: 2 / 6;
+            }
+            
+            .content {
+                grid-column: 2/ -1;
+                grid-row: 2 / 6;
+            }
+            
+            .footer {
+                grid-column: 1 / -1;
+                grid-row: 6
+            }
